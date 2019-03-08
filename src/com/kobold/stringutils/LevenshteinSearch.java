@@ -17,7 +17,7 @@ public class LevenshteinSearch {
 		this.originSource = originSource;
 	}
 
-	public List<String> levenshteinSort() {
+	public List<String> levenshteinSort(double similarity) {
 		List<List<Object>> list = ListUtils.getPartitional(originSource, 2);
 		List<TempClass> tempResult = new ArrayList<>();
 		for (List<Object> m : list) {
@@ -28,11 +28,20 @@ public class LevenshteinSearch {
 			tempResult.addAll(tempPartitions);
 		}
 
-		return tempResult.stream().sorted(Comparator.comparing(TempClass::getSortIndex).reversed()).map(m -> m.getSource()).collect(Collectors.toList());
+		var result= tempResult.stream().filter(m -> m.getSortIndex() > similarity)
+				.sorted(Comparator.comparing(TempClass::getSortIndex).reversed())
+				.map(m -> m.getSource())
+				.collect(Collectors.toList());
+
+		tempResult.stream().filter(m -> m.getSortIndex() > similarity)
+				.sorted(Comparator.comparing(TempClass::getSortIndex).reversed()).forEach(m->{
+			System.out.println(m.getSource()+"  :   "+m.getSortIndex());
+		});
+		return result;
 	}
 
 
-	public float levenshtein(String str1, String str2) {
+	public double levenshtein(String str1, String str2) {
 		//计算两个字符串的长度。
 		int len1 = str1.length();
 		int len2 = str2.length();
@@ -60,7 +69,7 @@ public class LevenshteinSearch {
 			}
 		}
 
-		float similarity = 1 - (float) dif[len1][len2] / Math.max(str1.length(), str2.length());
+		double similarity = 1 - (double)dif[len1][len2] / Math.max(str1.length(), str2.length());
 		return similarity;
 	}
 
@@ -79,14 +88,14 @@ public class LevenshteinSearch {
 
 class TempClass {
 	private String source;
-	private float sortIndex;
+	private double sortIndex;
 
-	TempClass(String source, float sortIndex) {
+	TempClass(String source, double sortIndex) {
 		this.source = source;
 		this.sortIndex = sortIndex;
 	}
 
-	public float getSortIndex() {
+	public double getSortIndex() {
 		return sortIndex;
 	}
 

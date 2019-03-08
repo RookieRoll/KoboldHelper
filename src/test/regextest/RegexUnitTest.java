@@ -1,5 +1,6 @@
 package test.regextest;
 
+import com.kobold.listutils.ListUtils;
 import com.kobold.regex.RegexConst;
 import com.kobold.stringutils.LevenshteinSearch;
 import org.junit.Assert;
@@ -45,8 +46,15 @@ public class RegexUnitTest {
 
 
 		LevenshteinSearch search=new LevenshteinSearch(str1,list);
-		search.levenshteinSort().forEach(m->{
+		search.levenshteinSort(0.19).forEach(m->{
 			System.out.println(m);
 		});
+	}
+
+	@Test
+	public void testMaxKNumber(){
+		int[] number=new int[]{2,3,4,562,1,4,6,8,56,4,3,2,4,6,8,4,34,234,6,7,3,423,12,67,3,23,45,34,2,2,34345,65,74,5,345,7568,7,88,6,45};
+		var result=ListUtils.getMaxKNumber(number,1);
+		result.forEach(System.out::println);
 	}
 }

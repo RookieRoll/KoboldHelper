@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="543c3ca5-52de-48ae-88a2-ecf9810acd14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/kobold/listutils/ListUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kobold/secret/RSAUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/kobold/stringutils/LevenshteinSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="543c3ca5-52de-48ae-88a2-ecf9810acd14" name="Default Changelist" comment="添加字符串距离比较函数">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kobold/listutils/ListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kobold/listutils/ListUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kobold/stringutils/LevenshteinSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kobold/stringutils/LevenshteinSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/regextest/RegexUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/regextest/RegexUnitTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/kobold/listutils/ListUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="46" selection-start-line="7" selection-start-column="8" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="465">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,91 +31,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/regextest/RegexUnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+            <state relative-caret-position="425">
+              <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kobold/secret/RSAUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-              <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kobold/regex/RegexConst.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/kobold/stringutils/LevenshteinSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2169#2170#0" expanded="true" />
-                <element signature="e#2192#2193#0" expanded="true" />
-                <element signature="e#2301#2302#0" expanded="true" />
-                <element signature="e#2321#2322#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1329">
-              <caret line="404" column="14" selection-start-line="404" selection-start-column="14" selection-end-line="404" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kobold/listutils/ListUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kobold/format/DateTimeFormat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#formatDateTime#0;class#DateTimeFormat#0" />
               </folding>
             </state>
           </provider>
@@ -151,15 +68,15 @@
         <option value="$PROJECT_DIR$/src/com/kobold/regex/RegexConst.java" />
         <option value="$PROJECT_DIR$/src/com/kobold/format/DateTimeFormat.java" />
         <option value="$PROJECT_DIR$/src/com/kobold/secret/RSAUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/kobold/stringutils/LevenshteinSearch.java" />
         <option value="$PROJECT_DIR$/src/test/regextest/RegexUnitTest.java" />
         <option value="$PROJECT_DIR$/src/com/kobold/listutils/ListUtils.java" />
-        <option value="$PROJECT_DIR$/src/com/kobold/stringutils/LevenshteinSearch.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="313" />
-    <option name="y" value="-8" />
+    <option name="x" value="329" />
+    <option name="y" value="-17" />
     <option name="width" value="1920" />
     <option name="height" value="1051" />
   </component>
@@ -169,7 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -194,15 +110,7 @@
               <item name="KoboldHelper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="kobold" type="462c0819:PsiDirectoryNode" />
-              <item name="stringutils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KoboldHelper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KoboldHelper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="kobold" type="462c0819:PsiDirectoryNode" />
-              <item name="stringutils" type="462c0819:PsiDirectoryNode" />
-              <item name="LevenshteinSearch.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="listutils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KoboldHelper" type="b2602c69:ProjectViewProjectNode" />
@@ -214,12 +122,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547435792899" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552036742063" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit-4.10.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -242,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RegexUnitTest.testLevenshtein">
+  <component name="RunManager" selected="JUnit.RegexUnitTest.testMaxKNumber">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="KoboldHelper" />
@@ -285,13 +194,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegexUnitTest.testMaxKNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KoboldHelper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.regextest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.regextest" />
+      <option name="MAIN_CLASS_NAME" value="test.regextest.RegexUnitTest" />
+      <option name="METHOD_NAME" value="testMaxKNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.RegexUnitTest.testEmailRegex" />
       <item itemvalue="JUnit.RegexUnitTest.testLevenshtein" />
+      <item itemvalue="JUnit.RegexUnitTest.testMaxKNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegexUnitTest.testMaxKNumber" />
         <item itemvalue="JUnit.RegexUnitTest.testLevenshtein" />
         <item itemvalue="JUnit.RegexUnitTest.testEmailRegex" />
         <item itemvalue="Application.Main" />
@@ -311,60 +238,70 @@
       <workItem from="1540781628009" duration="6756000" />
       <workItem from="1540806702039" duration="1468000" />
       <workItem from="1541062004753" duration="489000" />
-      <workItem from="1547430630297" duration="4570000" />
+      <workItem from="1547430630297" duration="5674000" />
+      <workItem from="1547604564755" duration="122000" />
+      <workItem from="1552033757335" duration="2803000" />
     </task>
+    <task id="LOCAL-00001" summary="添加字符串距离比较函数">
+      <created>1547435843812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547435843812</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegexUnitTest_testLevenshtein - 2019.01.14 at 10h 59m 32s.xml">
+    <history-entry file="RegexUnitTest_testLevenshtein - 2019.01.14 at 11h 21m 55s.xml">
       <configuration name="RegexUnitTest.testLevenshtein" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegexUnitTest_testLevenshtein - 2019.01.14 at 11h 04m 40s.xml">
+    <history-entry file="RegexUnitTest_testLevenshtein - 2019.01.14 at 11h 22m 47s.xml">
       <configuration name="RegexUnitTest.testLevenshtein" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegexUnitTest_testLevenshtein - 2019.01.14 at 11h 05m 07s.xml">
+    <history-entry file="RegexUnitTest_testLevenshtein - 2019.01.14 at 11h 23m 06s.xml">
       <configuration name="RegexUnitTest.testLevenshtein" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegexUnitTest_testLevenshtein - 2019.01.14 at 11h 05m 56s.xml">
+    <history-entry file="RegexUnitTest_testLevenshtein - 2019.01.14 at 11h 23m 39s.xml">
       <configuration name="RegexUnitTest.testLevenshtein" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegexUnitTest_testLevenshtein - 2019.01.14 at 11h 07m 09s.xml">
+    <history-entry file="RegexUnitTest_testLevenshtein - 2019.01.14 at 11h 38m 30s.xml">
       <configuration name="RegexUnitTest.testLevenshtein" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegexUnitTest_testLevenshtein - 2019.01.14 at 11h 08m 31s.xml">
-      <configuration name="RegexUnitTest.testLevenshtein" configurationId="JUnit" />
+    <history-entry file="RegexUnitTest_testMaxKNumber - 2019.03.08 at 17h 07m 49s.xml">
+      <configuration name="RegexUnitTest.testMaxKNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegexUnitTest_testLevenshtein - 2019.01.14 at 11h 09m 45s.xml">
-      <configuration name="RegexUnitTest.testLevenshtein" configurationId="JUnit" />
+    <history-entry file="RegexUnitTest_testMaxKNumber - 2019.03.08 at 17h 09m 31s.xml">
+      <configuration name="RegexUnitTest.testMaxKNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegexUnitTest_testLevenshtein - 2019.01.14 at 11h 10m 45s.xml">
-      <configuration name="RegexUnitTest.testLevenshtein" configurationId="JUnit" />
+    <history-entry file="RegexUnitTest_testMaxKNumber - 2019.03.08 at 17h 09m 57s.xml">
+      <configuration name="RegexUnitTest.testMaxKNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegexUnitTest_testLevenshtein - 2019.01.14 at 11h 15m 10s.xml">
-      <configuration name="RegexUnitTest.testLevenshtein" configurationId="JUnit" />
+    <history-entry file="RegexUnitTest_testMaxKNumber - 2019.03.08 at 17h 14m 10s.xml">
+      <configuration name="RegexUnitTest.testMaxKNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegexUnitTest_testLevenshtein - 2019.01.14 at 11h 15m 16s.xml">
-      <configuration name="RegexUnitTest.testLevenshtein" configurationId="JUnit" />
+    <history-entry file="RegexUnitTest_testMaxKNumber - 2019.03.08 at 17h 14m 21s.xml">
+      <configuration name="RegexUnitTest.testMaxKNumber" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13283000" />
+    <option name="totallyTimeSpent" value="17312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Duplicate detector" weight="0.32929516" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29955947" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.311674" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,8 +310,8 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32929516" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -384,31 +321,49 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/kobold/stringutils/LevenshteinSearch.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加字符串距离比较函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加字符串距离比较函数" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/kobold/SignDemo.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1329">
+          <caret line="404" column="14" selection-start-line="404" selection-start-column="14" selection-end-line="404" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="150">
           <caret line="10" column="46" selection-start-line="7" selection-start-column="8" selection-end-line="10" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kobold/secret/RSAUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -424,68 +379,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/src/com/kobold/file/FileReadHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1329">
-          <caret line="404" column="14" selection-start-line="404" selection-start-column="14" selection-end-line="404" selection-end-column="14" />
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kobold/regex/RegexConst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kobold/secret/RSAUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/kobold/objectutils/ObjectHelpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kobold/stringutils/LevenshteinSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="62" column="24" lean-forward="true" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
           <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="137" column="44" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/regextest/RegexUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kobold/listutils/ListUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="465">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/regextest/RegexUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kobold/stringutils/LevenshteinSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2169#2170#0" expanded="true" />
-            <element signature="e#2192#2193#0" expanded="true" />
-            <element signature="e#2301#2302#0" expanded="true" />
-            <element signature="e#2321#2322#0" expanded="true" />
           </folding>
         </state>
       </provider>
