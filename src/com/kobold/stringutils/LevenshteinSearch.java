@@ -7,6 +7,9 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * string 相似距离度计算
+ */
 public class LevenshteinSearch {
 
 	private String searchValue;
@@ -28,20 +31,20 @@ public class LevenshteinSearch {
 			tempResult.addAll(tempPartitions);
 		}
 
-		var result= tempResult.stream().filter(m -> m.getSortIndex() > similarity)
+		var result = tempResult.stream().filter(m -> m.getSortIndex() > similarity)
 				.sorted(Comparator.comparing(TempClass::getSortIndex).reversed())
 				.map(m -> m.getSource())
 				.collect(Collectors.toList());
 
 		tempResult.stream().filter(m -> m.getSortIndex() > similarity)
-				.sorted(Comparator.comparing(TempClass::getSortIndex).reversed()).forEach(m->{
-			System.out.println(m.getSource()+"  :   "+m.getSortIndex());
+				.sorted(Comparator.comparing(TempClass::getSortIndex).reversed()).forEach(m -> {
+			System.out.println(m.getSource() + "  :   " + m.getSortIndex());
 		});
 		return result;
 	}
 
 
-	public double levenshtein(String str1, String str2) {
+	private double levenshtein(String str1, String str2) {
 		//计算两个字符串的长度。
 		int len1 = str1.length();
 		int len2 = str2.length();
@@ -69,7 +72,7 @@ public class LevenshteinSearch {
 			}
 		}
 
-		double similarity = 1 - (double)dif[len1][len2] / Math.max(str1.length(), str2.length());
+		double similarity = 1 - (double) dif[len1][len2] / Math.max(str1.length(), str2.length());
 		return similarity;
 	}
 

@@ -10,7 +10,6 @@ public class ListUtils {
 	public static List<List<Object>> getPartitional(List<?> list, int size) {
 		List<List<Object>> results = new ArrayList<>();
 		int j = 0;
-
 		List<Object> tempList = new ArrayList<>();
 		for (int i = 0; i < list.size(); i++) {
 			if (i == size * j) {
@@ -59,7 +58,6 @@ public class ListUtils {
 	 * @param k the size of number you want to find
 	 * @return a list with you want
 	 */
-
 	public static List<Integer> getMaxKNumber(int[] numbers, int k) {
 		ArrayList<Integer> result = new ArrayList<>();
 		int length = numbers.length;
